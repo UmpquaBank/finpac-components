@@ -1,0 +1,197 @@
+.root {
+  display: grid;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  align-content: flex-start;
+  justify-items: center;
+  justify-content: flex-start;
+  align-items: center;
+  min-width: 0;
+  min-height: 0;
+  grid-template-columns:
+    var(--plsmc-viewport-gap) 1fr minmax(0, var(--plsmc-wide-chunk))
+    min(
+      var(--plsmc-standard-width),
+      calc(100% - var(--plsmc-viewport-gap) - var(--plsmc-viewport-gap))
+    )
+    minmax(0, var(--plsmc-wide-chunk)) 1fr var(--plsmc-viewport-gap);
+}
+.root > * {
+  grid-column: 4;
+}
+.freeBox__xndff {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  grid-column-start: 1 !important;
+  grid-column-end: -1 !important;
+  padding: 0px;
+}
+.finpacHeader:global(.__wab_instance) {
+  max-width: 100%;
+  width: 100%;
+  min-width: 0;
+}
+.hero:global(.__wab_instance) {
+  max-width: 100%;
+  width: 100%;
+  min-width: 0;
+}
+.freeBox__wvxD {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: stretch;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 20px 8px;
+}
+@media (max-width: 1000px) {
+  .freeBox__wvxD {
+    padding-left: 33px;
+  }
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__wvxD {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+.freeBox__lkCq {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  align-items: center;
+  justify-content: flex-end;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox__lkCq {
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 20px;
+  }
+}
+.freeBox__kDrYk {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  max-width: 615px;
+  min-width: 0;
+  padding: 8px 0px;
+}
+.freeBox__kDrYk > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  min-width: 0;
+  margin-top: calc(0px - 15px);
+  height: calc(100% + 15px);
+}
+.freeBox__kDrYk > :global(.__wab_flex-container) > *,
+.freeBox__kDrYk > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox__kDrYk > :global(.__wab_flex-container) > picture > img,
+.freeBox__kDrYk
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 15px;
+}
+.text__dgnE {
+  color: var(--token-88RjLEx5apRc);
+  font-family: var(--token-zHp5t89rxSrr);
+  font-size: var(--token-efKhapC6D4KI);
+  text-align: left;
+  letter-spacing: -0.02rem;
+  line-height: var(--token-VjbZaV8oqOQR);
+  margin-bottom: 0px;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  margin-top: calc(0px + 15px) !important;
+  margin-right: 0px;
+  margin-left: 0px;
+  min-width: 0;
+}
+.freeBox___9Kype {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 8px;
+}
+.freeBox___9Kype > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+  margin-top: calc(0px - 15px);
+  height: calc(100% + 15px);
+}
+.freeBox___9Kype > :global(.__wab_flex-container) > *,
+.freeBox___9Kype > :global(.__wab_flex-container) > :global(.__wab_slot) > *,
+.freeBox___9Kype > :global(.__wab_flex-container) > picture > img,
+.freeBox___9Kype
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > picture
+  > img {
+  margin-top: 15px;
+}
+@media (min-width: 0px) and (max-width: 768px) {
+  .freeBox___9Kype {
+    display: none;
+  }
+}
+.img__fKnVs {
+  object-fit: cover;
+  max-width: 450px;
+  width: 35%;
+}
+.img__fKnVs > picture > img {
+  object-fit: cover;
+}
+.freeBox__nbFl2 {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  min-width: 0;
+  padding: 31px 8px;
+}
+.text {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+  text-align: center;
+  min-width: 0;
+}
+.finPacFooter:global(.__wab_instance):global(.__wab_instance) {
+  max-width: 100%;
+  width: 100%;
+  grid-column-start: 1 !important;
+  grid-column-end: -1 !important;
+}
