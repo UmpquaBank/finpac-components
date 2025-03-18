@@ -524,7 +524,7 @@ function PlasmicFinPacFooter__RenderFunc(props: {
               code={
                 hasVariant(globalVariants, "screen", "mediumScreen")
                   ? "<a id=\"ot-sdk-btn\" class=\"ot-sdk-show-settings\" style=\"color: #0075d1; font-size: 16px; font-family: elza; font-weight: 600; border: 0; padding: 0; padding-top: 6px; text-decoration: none;\" onmouseover=\"this.style.backgroundColor='transparent'; this.style.textDecoration='underline'; this.style.cursor='pointer'\" onmouseout=\"this.style.backgroundColor='initial'; this.style.textDecoration='none'; this.style.cursor='default'\">Manage my cookie preferences</a>"
-                  : "<a id=\"ot-sdk-btn\" class=\"ot-sdk-show-settings\" style=\"color: #3D808A; font-size: 16px; font-family: elza; font-weight: 600; border: 0; padding: 0; padding-top: 6px; text-decoration: none;\" onmouseover=\"this.style.backgroundColor='transparent'; this.style.textDecoration='underline'; this.style.cursor='pointer'\" onmouseout=\"this.style.backgroundColor='initial'; this.style.textDecoration='none'; this.style.cursor='default'\">Manage my cookie preferences</a>"
+                  : "<a id=\"ot-sdk-btn\" class=\"ot-sdk-show-settings\" style=\"color: #0075D1; font-size: 16px; font-family: elza; font-weight: 600; border: 0; padding: 0; padding-top: 6px; text-decoration: none;\" onmouseover=\"this.style.backgroundColor='transparent'; this.style.textDecoration='underline'; this.style.cursor='pointer'\" onmouseout=\"this.style.backgroundColor='initial'; this.style.textDecoration='none'; this.style.cursor='default'\">Manage my cookie preferences</a>"
               }
             />
           </Stack__>
